@@ -246,11 +246,11 @@ The final video output was verified using:
 
 The generated video timing was also observed through:
 
-* vtg_active_video`
-* vtg_hsync`
-* vtg_vsync`
-* vtg_hblank`
-* vtg_vblank`
+* vtg_active_video
+* vtg_hsync
+* vtg_vsync
+* vtg_hblank
+* vtg_vblank
 * locked
 
 ---
