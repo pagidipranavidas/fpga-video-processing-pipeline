@@ -29,7 +29,7 @@ The complete design was integrated using Vivado IP Integrator and functionally v
 
 The main data and control flow is:
 
-text
+```text
                        AXI4-Lite Control
                               │
                               ▼
@@ -56,7 +56,7 @@ text
 
 
 The AXI Traffic Generator is used as the AXI4-Lite master to configure the VTC and TPG through the AXI Interconnect.
-
+```
 ---
 
 ## Main IP Cores
@@ -119,7 +119,7 @@ The Video Timing Controller and Video Test Pattern Generator are configured thro
 
 The AXI Traffic Generator acts as the AXI4-Lite master.
 
-text
+```text
 AXI Traffic Generator
           │
           │ AXI4-Lite
@@ -129,7 +129,7 @@ AXI Traffic Generator
        │     │
        ▼     ▼
       VTC    TPG
-
+```
 
 The AXI Traffic Generator uses COE initialization files containing the address and data sequences required for the configuration transactions.
 
@@ -287,7 +287,7 @@ The TPG-generated pixel data propagates through the AXI4-Stream interface and ap
 
 ## Repository Structure
 
-text
+```text
 fpga-video-processing-pipeline/
 │
 ├── README.md
@@ -308,7 +308,7 @@ fpga-video-processing-pipeline/
     ├── axi4-stream-video-output-waveform.png
     ├── video-output-waveform.png
     └── 1280x720-60fps-waveform.png
-
+```
 ---
 
 ## Tools and Technologies
