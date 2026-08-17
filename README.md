@@ -135,11 +135,11 @@ The AXI Traffic Generator uses COE initialization files containing the address a
 
 ### Configuration Files
 
-text
+```text
 config/
 ├── axi_traffic_gen_address.coe
 └── axi_traffic_gen_data.coe
-
+```
 
 The address and data COE files are used to initialize the AXI Traffic Generator transaction sequences.
 
